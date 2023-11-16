@@ -1,11 +1,11 @@
 {
-    "name": "ropa",
-    "short_name": "ropa",
+    "name": "ambient_intelligence",
+    "short_name": "ambient_intelligence",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "The Ropa De Lirio Web Shop",
+    "description": "FIDO Demo",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
