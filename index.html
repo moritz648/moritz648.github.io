@@ -14,7 +14,9 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-  <base href="/">
+  <script src="webauthn.js"></script>
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/@simplewebauthn/browser@9.0.0/dist/bundle/index.umd.min.js" integrity="sha384-jYjKVGtLTFWAdiSLbGFafTEEX1kRjwlSpNhe11/NQ7zuJNA+7I376SwPVQfFu2NV" crossorigin="anonymous"></script>
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -32,14 +34,21 @@
   <title>ambient_intelligence</title>
   <link rel="manifest" href="manifest.json">
 
+
+
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "2436726700";
+    const serviceWorkerVersion = "1827045369";
   </script>
   <!-- This script adds the flutter initialization JS code -->
+
   <script src="flutter.js" defer></script>
 </head>
 <body>
+<script src="//cdnjs.cloudflare.com/ajax/libs/pdf.js/2.4.456/pdf.min.js"></script>
+<script type="text/javascript">
+   pdfjsLib.GlobalWorkerOptions.workerSrc = "//cdnjs.cloudflare.com/ajax/libs/pdf.js/2.4.456/pdf.worker.min.js";
+</script>
   <script>
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
