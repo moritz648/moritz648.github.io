@@ -3,8 +3,8 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "978a7ee4eb19b315a61c10b8c515cc71",
-"assets/AssetManifest.json": "bb2dd9943ef34c783d26d030694745dc",
+const RESOURCES = {"assets/AssetManifest.bin": "386768e5464a50b15934fac2208f5a61",
+"assets/AssetManifest.json": "ca91c01de5983055b5d0f9a8c63f0ebf",
 "assets/assets/AmI01_Einfuehrung.pdf": "4e997f858dfa6490e4cc9a031a97044f",
 "assets/assets/AmI02_Sensoren%2520Aktoren.pdf": "ab289ad49ae4affd86ef6968b8b472e2",
 "assets/assets/AmI03_Mikrocontroller.pdf": "192b7c17092963f61c6f2df3b2a9c0c9",
@@ -13,6 +13,12 @@ const RESOURCES = {"assets/AssetManifest.bin": "978a7ee4eb19b315a61c10b8c515cc71
 "assets/assets/AmI06_Smart_City.pdf": "90af6d855f790456ba74621b5f7f2a9c",
 "assets/assets/AmI07_Gesundheitsversorgung.pdf": "0ff41416690f31ddb043fe23b168d293",
 "assets/assets/AmI08_Benutzerinteraktion.pdf": "088f13683eba678067cbe73ab6020bd9",
+"assets/assets/AmI09_ContextAwareness.pdf": "d5ff75f105cf4c0ea6b5f80ec83788b5",
+"assets/assets/AmI10_KI.pdf": "79431824081b570a1574e2d7ff0e2ad7",
+"assets/assets/AmI11_MaschinellesLernen.pdf": "0ccffd7be1b07e492e9bdba358a04011",
+"assets/assets/AmI12_Sicherheit.pdf": "16831b01a6b3f0d84931872d4bf6bbb2",
+"assets/assets/AmI13_Datenschutz.pdf": "2fd45143814d14eba69c0a9c8cdbdfb3",
+"assets/assets/Vorlesungsskript_Ambient_Intelligence.pdf": "173de83580d6a8136264176ef846f362",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "fb37511df14be7656118addb1ab72372",
 "assets/NOTICES": "619e0c717acbc159bd98c7794bc17255",
@@ -31,9 +37,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "978a7ee4eb19b315a61c10b8c515cc71
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "0c812d9d6f9399136ab644ae1dffed92",
-"/": "0c812d9d6f9399136ab644ae1dffed92",
-"main.dart.js": "07b70a7b5c5132ae954aab0cca7a05de",
+"index.html": "3d84419eee0b77f3e30be90223e42ce1",
+"/": "3d84419eee0b77f3e30be90223e42ce1",
+"main.dart.js": "d9a8a5a677c2150174fc86c4b7c5feaa",
 "manifest.json": "6c8525aac34deb4ded2eb986f2c8275e",
 "version.json": "798790815a70adb7bba62e8be6a8090e",
 "webauthn.js": "f7a58d0b5bb220a351f80950088e5441"};
