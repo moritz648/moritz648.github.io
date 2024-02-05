@@ -20,7 +20,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "386768e5464a50b15934fac2208f5a61
 "assets/assets/AmI13_Datenschutz.pdf": "2fd45143814d14eba69c0a9c8cdbdfb3",
 "assets/assets/Vorlesungsskript_Ambient_Intelligence.pdf": "173de83580d6a8136264176ef846f362",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
-"assets/fonts/MaterialIcons-Regular.otf": "fb37511df14be7656118addb1ab72372",
+"assets/fonts/MaterialIcons-Regular.otf": "10c50e1f0e85aa7e344aaf510e396a11",
 "assets/NOTICES": "619e0c717acbc159bd98c7794bc17255",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "89ed8f4e49bcdfc0b5bfc9b24591e347",
 "assets/shaders/ink_sparkle.frag": "f8b80e740d33eb157090be4e995febdf",
@@ -37,12 +37,12 @@ const RESOURCES = {"assets/AssetManifest.bin": "386768e5464a50b15934fac2208f5a61
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "3d84419eee0b77f3e30be90223e42ce1",
-"/": "3d84419eee0b77f3e30be90223e42ce1",
-"main.dart.js": "d9a8a5a677c2150174fc86c4b7c5feaa",
+"index.html": "46ef3dbf888a48b1beb295e32b464c16",
+"/": "46ef3dbf888a48b1beb295e32b464c16",
+"main.dart.js": "2ae82bf37acd67e5899ca7ff8149b70c",
 "manifest.json": "6c8525aac34deb4ded2eb986f2c8275e",
 "version.json": "798790815a70adb7bba62e8be6a8090e",
-"webauthn.js": "f7a58d0b5bb220a351f80950088e5441"};
+"webauthn.js": "118d3bd599a17421c985491269c615b8"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",

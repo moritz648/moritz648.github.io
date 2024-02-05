@@ -46,9 +46,9 @@ async function registerWebAuthn(uid, email) {
   // Wait for the results of verification
   const verificationJSON = await verificationResp.json();
   if (verificationJSON && verificationJSON.verified) {
-    console.log("SUCCESS!!");
+    window.handleWebAuthnRegisterResult("Successfully registered this device with Webauthn.");
   } else {
-    console.log("FAILURE :(");
+    window.handleWebAuthnRegisterResult("Something went wrong, please try again.");
   }
 }
 
@@ -100,6 +100,6 @@ async function loginWebAuthn(email) {
     console.log(msg);
     window.handleWebAuthnLoginResult(token);
   } else {
-    console.log(msg);
+    window.handleWebAuthnLoginFailure(msg);
   }
 }
