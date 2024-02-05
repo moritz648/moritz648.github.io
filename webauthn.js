@@ -22,6 +22,7 @@ async function registerWebAuthn(uid, email) {
   try {
     regResp = await startRegistration(opts);
   } catch (err) {
+    window.handleWebAuthnRegisterResult("Something went wrong, please try again.");
     throw new Error(err);
   }
 
@@ -74,8 +75,8 @@ async function loginWebAuthn(email) {
   let authResp;
   try {
     authResp = await startAuthentication(opts);
-    console.log("Auth Worked");
   } catch (err) {
+    window.handleWebAuthnLoginFailure("Something went wrong, please try again.");
     throw new Error(err);
   }
 
