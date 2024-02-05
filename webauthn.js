@@ -15,11 +15,12 @@ async function registerWebAuthn(uid, email) {
     }
   );
 
-  const opts = await resp.json();
+
   const { startRegistration } = SimpleWebAuthnBrowser;
 
   let regResp;
   try {
+    const opts = await resp.json();
     regResp = await startRegistration(opts);
   } catch (err) {
     window.handleWebAuthnRegisterResult("Something went wrong, please try again.");
